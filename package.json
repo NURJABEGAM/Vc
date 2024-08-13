@@ -1,0 +1,14 @@
+{
+  "name": "vocal-remover",
+  "version": "1.0.0",
+  "description": "Vocal remover and isolation tool using Spleeter and Netlify Functions",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "formidable": "^2.0.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
