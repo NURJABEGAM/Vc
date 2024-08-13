@@ -1,7 +1,7 @@
 const { exec } = require('child_process');
 const formidable = require('formidable');
-const fs = require('fs');
 const path = require('path');
+const fs = require('fs');
 
 exports.handler = async (event, context) => {
     if (event.httpMethod !== 'POST') {
@@ -45,8 +45,8 @@ exports.handler = async (event, context) => {
                 resolve({
                     statusCode: 200,
                     body: JSON.stringify({
-                        vocals: `/tmp/vocals.wav`,
-                        accompaniment: `/tmp/accompaniment.wav`
+                        vocals: '/tmp/vocals.wav',
+                        accompaniment: '/tmp/accompaniment.wav'
                     }),
                 });
             });
